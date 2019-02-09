@@ -55,7 +55,6 @@ public class DoublyList {
         }
     }
 
-
     public void removeLast(DoublyList tail) {
         first = tail;
         while (first.next.next != null) {
@@ -130,4 +129,3 @@ public class DoublyList {
         return (tail == null) ? "*" : tail.value + "->" + toString(tail.next);
     }
 }
-
